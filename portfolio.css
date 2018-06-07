@@ -67,9 +67,6 @@ body {
 }
 
 
-
-
-}
 .footer {
     background: black;
     text-align: center;
@@ -116,6 +113,7 @@ body {
 .line1pic2{
     position:relative;
     display: inline;
+    float: right;
     
 }
 
@@ -133,10 +131,61 @@ body {
     margin-left: 30px;
 }
 
-.line1pic2 {
+.line2pic1 {
+    position:relative;
+    float: left;
+    display: inline;
+}
+
+.trivia {
+    position: absolute;
+    top: 173px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+    text-align: center;
+    width: 200px;
+}
+
+.line2pic2{
+    position:relative;
+    display: inline;
     
 }
 
-.hang
+.riw {
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 2;
+    text-align: center;
+    width: 200px;
+    margin-left: 30px;
+}
 
-
+.line3pic1 {
+        position:relative;
+        display: inline;
+        
+}
+    
+.rps {
+        position: absolute;
+        top: -15px;
+        right: 0px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        z-index: 2;
+        text-align: center;
+        width: 200px;
+        margin-left: 30px;
+}
