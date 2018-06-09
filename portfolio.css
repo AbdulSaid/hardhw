@@ -69,21 +69,30 @@ body {
   background: white;
   width: 960px;
   height: 960px;
-  border-style: solid;
   border-color: #cccccc;
-  border-width: 1px;
-  margin: 40px 30px 30px 125px;
+  margin: 40px 30px 10px 125px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  padding: 20px;
 }
 
-.h2 {
+.port11 {
   color: red;
+  padding: 20px;
+}
+
+.sumofpictures {
+  margin-top: 0px;
 }
 
 .line1pic1 {
   position: relative;
   float: left;
   display: inline;
-  margin-left: 20px;
+  margin-left: 63px;
+  margin-bottom: 10px;
 }
 
 .hangman {
@@ -97,18 +106,20 @@ body {
   z-index: 1;
   text-align: center;
   width: 250px;
+  padding: 10px;
 }
 
 .line1pic2 {
   position: relative;
   display: inline;
   float: right;
-  margin-right: 200px;
+  margin-right: 315px;
+  margin-bottom: 10px;
 }
 
 .rpggame {
   position: absolute;
-  top: -15px;
+  top: 170px;
   right: 0px;
   background-color: black;
   color: white;
@@ -119,13 +130,16 @@ body {
   width: 250px;
   margin-left: 30px;
   text-align: center;
+  padding: 10px;
 }
 
 .line2pic1 {
   position: relative;
   float: left;
   display: inline;
-  margin-left: 20px;
+  margin-left: 63px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .trivia {
@@ -139,18 +153,20 @@ body {
   z-index: 1;
   text-align: center;
   width: 250px;
+  padding: 10px;
 }
 
 .line2pic2 {
   position: relative;
   display: inline;
   float: right;
-  margin-right: 200px;
+  margin-right: 314px;
+  margin-top: 33px;
 }
 
 .riw {
   position: absolute;
-  top: -15px;
+  top: 170px;
   right: 0px;
   background-color: black;
   color: white;
@@ -161,19 +177,20 @@ body {
   width: 250px;
   margin-left: 30px;
   text-align: center;
+  padding: 10px;
 }
 
 .line3pic1 {
   position: relative;
   display: inline;
   float: left;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: -250px;
+  margin-top: 292px;
 }
 
 .rps {
   position: absolute;
-  top: -15px;
+  top: 170px;
   right: 0px;
   background-color: black;
   color: white;
@@ -183,6 +200,7 @@ body {
   text-align: center;
   width: 250px;
   margin-left: 30px;
+  padding: 10px;
 }
 
 .footer {
