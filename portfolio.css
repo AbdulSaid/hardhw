@@ -61,34 +61,29 @@ body {
   color: black;
 }
 
-.footer {
-  background: black;
-  text-align: center;
-  color: white;
-  font-size: 10px;
-  border-top: 5px;
-  border-top-color: red;
-  border-top-style: solid;
-  padding: 25px;
-  margin-top: 90px;
+.sumofpictures {
+  margin-top: 50px;
 }
 
 .bigportfolio {
-  border-radius: 5px;
-  background-color: #ffffff;
-  padding: 20px;
+  background: white;
   width: 960px;
-  length: 960px;
-  margin: 27px 30px 30px 125px;
+  height: 960px;
   border-style: solid;
-  border-color: white;
-  border-width: 2px;
+  border-color: #cccccc;
+  border-width: 1px;
+  margin: 40px 30px 30px 125px;
+}
+
+.h2 {
+  color: red;
 }
 
 .line1pic1 {
   position: relative;
   float: left;
   display: inline;
+  margin-left: 20px;
 }
 
 .hangman {
@@ -101,12 +96,14 @@ body {
   padding-right: 20px;
   z-index: 1;
   text-align: center;
-  width: 200px;
+  width: 250px;
 }
 
 .line1pic2 {
   position: relative;
   display: inline;
+  float: right;
+  margin-right: 200px;
 }
 
 .rpggame {
@@ -117,16 +114,18 @@ body {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-  z-index: 2;
+  z-index: 1;
   text-align: center;
   width: 250px;
   margin-left: 30px;
+  text-align: center;
 }
 
 .line2pic1 {
   position: relative;
   float: left;
   display: inline;
+  margin-left: 20px;
 }
 
 .trivia {
@@ -145,6 +144,8 @@ body {
 .line2pic2 {
   position: relative;
   display: inline;
+  float: right;
+  margin-right: 200px;
 }
 
 .riw {
@@ -155,15 +156,19 @@ body {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-  z-index: 2;
+  z-index: 1;
   text-align: center;
   width: 250px;
   margin-left: 30px;
+  text-align: center;
 }
 
 .line3pic1 {
   position: relative;
   display: inline;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .rps {
@@ -174,8 +179,20 @@ body {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-  z-index: 2;
+  z-index: 1;
   text-align: center;
   width: 250px;
   margin-left: 30px;
+}
+
+.footer {
+  background: black;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  border-top: 5px;
+  border-top-color: red;
+  border-top-style: solid;
+  padding: 25px;
+  margin-top: 90px;
 }
