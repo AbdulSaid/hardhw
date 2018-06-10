@@ -86,9 +86,14 @@ img {
 
 p {
   float: right;
+  padding: 5px;
+  font-size: 20px;
+  line-height: initial;
 }
 h1 {
-  padding-top: 5px;
+  padding: 20px;
+  font-size: 200%;
+  color: red;
 }
 .footer {
   background: black;
@@ -99,5 +104,5 @@ h1 {
   border-top-color: red;
   border-top-style: solid;
   padding: 25px;
-  margin-top: 90px;
+  margin-top: 125px;
 }

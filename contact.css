@@ -61,6 +61,12 @@ body {
   color: black;
 }
 
+.picmid {
+  width: 816px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 input[type='text'],
 select,
 textarea {
@@ -90,13 +96,18 @@ input[type='submit']:hover {
 .midpic {
   border-radius: 5px;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 35px;
   width: 960px;
   length: 960px;
   margin: 27px 30px 30px 125px;
   border-style: solid;
   border-color: white;
   border-width: 2px;
+}
+h1 {
+  padding: 5px;
+  font-size: 200%;
+  color: red;
 }
 
 .footer {
@@ -108,5 +119,4 @@ input[type='submit']:hover {
   border-top-color: red;
   border-top-style: solid;
   padding: 25px;
-  margin-top: 90px;
 }
